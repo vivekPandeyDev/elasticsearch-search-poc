@@ -1,0 +1,35 @@
+POST http://localhost:9200/products/_search
+Content-Type: application/json
+
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "multi_match": {
+            "query": "running shoes",
+            "fields": [
+              "name^3",
+              "description"
+            ]
+          }
+        }
+      ],
+      "filter": [
+        {
+          "range": {
+            "price": {
+              "gte": 2000,
+              "lte": 4000
+            }
+          }
+        },
+        {
+          "term": {
+            "inStock": true
+          }
+        }
+      ]
+    }
+  }
+}

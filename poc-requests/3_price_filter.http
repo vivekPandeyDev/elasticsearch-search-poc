@@ -1,0 +1,4 @@
+## This returns matching products priced between 2,000 and 4,000, inclusive.
+
+GET http://localhost:8080/api/search?q=shoes&minPrice=2000&maxPrice=4000
+Accept: application/json

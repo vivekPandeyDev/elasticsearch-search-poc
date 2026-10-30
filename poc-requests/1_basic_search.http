@@ -1,0 +1,4 @@
+## basic search for products
+
+GET http://localhost:8080/api/search?q=running%20shoes
+Accept: application/json

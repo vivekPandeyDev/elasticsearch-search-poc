@@ -1,0 +1,11 @@
+POST http://localhost:9200/_reindex
+Content-Type: application/json
+
+{
+  "source": {
+    "index": "products"
+  },
+  "dest": {
+    "index": "products_v2"
+  }
+}

@@ -1,0 +1,14 @@
+### Create a new product
+POST http://localhost:8080/api/products
+Content-Type: application/json
+
+{
+"id": "P206",
+"name": "Samsung Wireless Headphones",
+"description": "Premium wireless headphones with noise cancellation and deep bass for an immersive audio experience",
+"brand": "Samsung",
+"category": "Electronics",
+"price": 4999,
+"rating": 4.3,
+"inStock": true
+}

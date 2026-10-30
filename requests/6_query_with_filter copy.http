@@ -1,0 +1,23 @@
+POST http://localhost:9200/products/_search
+Content-Type: application/json
+
+{
+  "from": 0,
+  "size": 20,
+  "query": {
+    "multi_match": {
+      "query": "running shoes",
+      "fields": [
+        "name^3",
+        "description"
+      ]
+    }
+  },
+  "sort": [
+    {
+      "price": {
+        "order": "asc"
+      }
+    }
+  ]
+}

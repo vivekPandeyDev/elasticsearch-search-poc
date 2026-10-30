@@ -1,0 +1,213 @@
+POST http://localhost:9200/_bulk
+Content-Type: application/x-ndjson
+
+{"index":{"_index":"products","_id":"P101"}}
+{"id":"P101","name":"Nike Air Max Running Shoes","description":"Lightweight cushioned shoes designed for long-distance running","brand":"Nike","category":"Running Shoes","price":3499,"rating":4.5,"inStock":true}
+{"index":{"_index":"products","_id":"P102"}}
+{"id":"P102","name":"Adidas Ultraboost","description":"Comfortable running shoes with responsive cushioning","brand":"Adidas","category":"Running Shoes","price":4999,"rating":4.7,"inStock":true}
+{"index":{"_index":"products","_id":"P103"}}
+{"id":"P103","name":"Nike Revolution","description":"Affordable lightweight running shoes for daily training","brand":"Nike","category":"Running Shoes","price":2499,"rating":4.2,"inStock":true}
+{"index":{"_index":"products","_id":"P104"}}
+{"id":"P104","name":"Nike Sports T-Shirt","description":"Breathable sportswear for everyday workouts","brand":"Nike","category":"Clothing","price":999,"rating":4.1,"inStock":true}
+{"index":{"_index":"products","_id":"P105"}}
+{"id":"P105","name":"Adidas Casual Sneakers","description":"Casual footwear for everyday wear","brand":"Adidas","category":"Casual Shoes","price":2999,"rating":4.0,"inStock":false}
+{"index":{"_index":"products","_id":"P106"}}
+{"id":"P106","name":"Nike Pegasus 41","description":"Responsive running shoes for everyday training","brand":"Nike","category":"Running Shoes","price":4299,"rating":4.6,"inStock":true}
+{"index":{"_index":"products","_id":"P107"}}
+{"id":"P107","name":"Adidas Duramo SL","description":"Lightweight running shoes for daily workouts","brand":"Adidas","category":"Running Shoes","price":2799,"rating":4.3,"inStock":true}
+{"index":{"_index":"products","_id":"P108"}}
+{"id":"P108","name":"Puma Velocity Nitro","description":"Cushioned running shoes for road running","brand":"Puma","category":"Running Shoes","price":5999,"rating":4.5,"inStock":true}
+{"index":{"_index":"products","_id":"P109"}}
+{"id":"P109","name":"Asics Gel-Contend","description":"Supportive running shoes with gel cushioning","brand":"Asics","category":"Running Shoes","price":3999,"rating":4.4,"inStock":true}
+{"index":{"_index":"products","_id":"P110"}}
+{"id":"P110","name":"Reebok Floatride Energy","description":"Lightweight shoes built for comfortable runs","brand":"Reebok","category":"Running Shoes","price":4499,"rating":4.3,"inStock":true}
+{"index":{"_index":"products","_id":"P111"}}
+{"id":"P111","name":"Nike Downshifter","description":"Breathable shoes for beginner runners","brand":"Nike","category":"Running Shoes","price":3299,"rating":4.2,"inStock":true}
+{"index":{"_index":"products","_id":"P112"}}
+{"id":"P112","name":"Adidas Runfalcon","description":"Versatile running shoes for daily use","brand":"Adidas","category":"Running Shoes","price":2499,"rating":4.1,"inStock":true}
+{"index":{"_index":"products","_id":"P113"}}
+{"id":"P113","name":"Puma Softride Enzo","description":"Soft cushioned shoes for training and walking","brand":"Puma","category":"Running Shoes","price":3199,"rating":4.2,"inStock":true}
+{"index":{"_index":"products","_id":"P114"}}
+{"id":"P114","name":"Asics Gel-Excite","description":"Comfortable running shoes for regular training","brand":"Asics","category":"Running Shoes","price":4599,"rating":4.5,"inStock":true}
+{"index":{"_index":"products","_id":"P115"}}
+{"id":"P115","name":"New Balance Fresh Foam Arishi","description":"Running shoes with plush foam cushioning","brand":"New Balance","category":"Running Shoes","price":5499,"rating":4.6,"inStock":true}
+{"index":{"_index":"products","_id":"P116"}}
+{"id":"P116","name":"Nike Court Vision","description":"Classic low-top sneakers for casual outfits","brand":"Nike","category":"Casual Shoes","price":4499,"rating":4.4,"inStock":true}
+{"index":{"_index":"products","_id":"P117"}}
+{"id":"P117","name":"Adidas Grand Court","description":"Court-inspired sneakers for everyday wear","brand":"Adidas","category":"Casual Shoes","price":3799,"rating":4.3,"inStock":true}
+{"index":{"_index":"products","_id":"P118"}}
+{"id":"P118","name":"Puma Smash V2","description":"Minimal sneakers with a timeless design","brand":"Puma","category":"Casual Shoes","price":2999,"rating":4.2,"inStock":true}
+{"index":{"_index":"products","_id":"P119"}}
+{"id":"P119","name":"Reebok Classic Leather","description":"Leather sneakers with a clean retro look","brand":"Reebok","category":"Casual Shoes","price":4999,"rating":4.5,"inStock":true}
+{"index":{"_index":"products","_id":"P120"}}
+{"id":"P120","name":"Converse Chuck Taylor Low","description":"Canvas sneakers for relaxed everyday style","brand":"Converse","category":"Casual Shoes","price":3499,"rating":4.6,"inStock":true}
+{"index":{"_index":"products","_id":"P121"}}
+{"id":"P121","name":"Vans Old Skool","description":"Skate-inspired sneakers with a durable upper","brand":"Vans","category":"Casual Shoes","price":4599,"rating":4.5,"inStock":true}
+{"index":{"_index":"products","_id":"P122"}}
+{"id":"P122","name":"Skechers Summits","description":"Slip-on sneakers with a cushioned footbed","brand":"Skechers","category":"Casual Shoes","price":3299,"rating":4.3,"inStock":true}
+{"index":{"_index":"products","_id":"P123"}}
+{"id":"P123","name":"New Balance 574","description":"Retro sneakers combining comfort and classic style","brand":"New Balance","category":"Casual Shoes","price":6999,"rating":4.7,"inStock":true}
+{"index":{"_index":"products","_id":"P124"}}
+{"id":"P124","name":"Fila Memory Workshift","description":"Comfortable sneakers for all-day casual use","brand":"Fila","category":"Casual Shoes","price":2799,"rating":4.0,"inStock":false}
+{"index":{"_index":"products","_id":"P125"}}
+{"id":"P125","name":"Puma Caven","description":"Basketball-inspired sneakers for daily outfits","brand":"Puma","category":"Casual Shoes","price":3999,"rating":4.3,"inStock":true}
+{"index":{"_index":"products","_id":"P126"}}
+{"id":"P126","name":"Nike Dri-FIT Training Tee","description":"Moisture-wicking T-shirt for intense workouts","brand":"Nike","category":"Clothing","price":1499,"rating":4.5,"inStock":true}
+{"index":{"_index":"products","_id":"P127"}}
+{"id":"P127","name":"Adidas Essentials Tee","description":"Soft cotton-blend T-shirt for everyday comfort","brand":"Adidas","category":"Clothing","price":1199,"rating":4.2,"inStock":true}
+{"index":{"_index":"products","_id":"P128"}}
+{"id":"P128","name":"Puma Active Tee","description":"Lightweight training T-shirt with breathable fabric","brand":"Puma","category":"Clothing","price":899,"rating":4.1,"inStock":true}
+{"index":{"_index":"products","_id":"P129"}}
+{"id":"P129","name":"Reebok Workout Ready Tee","description":"Quick-drying T-shirt for gym sessions","brand":"Reebok","category":"Clothing","price":999,"rating":4.2,"inStock":true}
+{"index":{"_index":"products","_id":"P130"}}
+{"id":"P130","name":"Under Armour Tech Tee","description":"Fast-drying training shirt with a relaxed fit","brand":"Under Armour","category":"Clothing","price":1899,"rating":4.6,"inStock":true}
+{"index":{"_index":"products","_id":"P131"}}
+{"id":"P131","name":"Nike Club Hoodie","description":"Soft fleece hoodie for casual layering","brand":"Nike","category":"Clothing","price":3499,"rating":4.5,"inStock":true}
+{"index":{"_index":"products","_id":"P132"}}
+{"id":"P132","name":"Adidas Essentials Hoodie","description":"Cozy hoodie with an adjustable drawcord hood","brand":"Adidas","category":"Clothing","price":3299,"rating":4.4,"inStock":true}
+{"index":{"_index":"products","_id":"P133"}}
+{"id":"P133","name":"Puma Logo Hoodie","description":"Everyday hoodie with a comfortable fleece lining","brand":"Puma","category":"Clothing","price":2799,"rating":4.2,"inStock":true}
+{"index":{"_index":"products","_id":"P134"}}
+{"id":"P134","name":"Reebok Training Shorts","description":"Lightweight shorts for gym and outdoor exercise","brand":"Reebok","category":"Clothing","price":1299,"rating":4.1,"inStock":true}
+{"index":{"_index":"products","_id":"P135"}}
+{"id":"P135","name":"Nike Dri-FIT Shorts","description":"Sweat-wicking shorts for running and training","brand":"Nike","category":"Clothing","price":1799,"rating":4.4,"inStock":true}
+{"index":{"_index":"products","_id":"P136"}}
+{"id":"P136","name":"Adidas Track Pants","description":"Tapered track pants for warm-ups and casual wear","brand":"Adidas","category":"Clothing","price":2299,"rating":4.3,"inStock":true}
+{"index":{"_index":"products","_id":"P137"}}
+{"id":"P137","name":"Puma Essential Joggers","description":"Soft joggers with an elasticated waistband","brand":"Puma","category":"Clothing","price":1999,"rating":4.2,"inStock":true}
+{"index":{"_index":"products","_id":"P138"}}
+{"id":"P138","name":"Under Armour Leggings","description":"Stretch leggings designed for training sessions","brand":"Under Armour","category":"Clothing","price":2499,"rating":4.5,"inStock":false}
+{"index":{"_index":"products","_id":"P139"}}
+{"id":"P139","name":"Nike Windrunner Jacket","description":"Lightweight jacket for breezy outdoor workouts","brand":"Nike","category":"Clothing","price":4999,"rating":4.6,"inStock":true}
+{"index":{"_index":"products","_id":"P140"}}
+{"id":"P140","name":"Adidas Training Jacket","description":"Sporty zip-up jacket for warm-ups and travel","brand":"Adidas","category":"Clothing","price":3999,"rating":4.4,"inStock":true}
+{"index":{"_index":"products","_id":"P141"}}
+{"id":"P141","name":"Puma Sports Bra","description":"Supportive sports bra for low-impact workouts","brand":"Puma","category":"Clothing","price":1599,"rating":4.1,"inStock":true}
+{"index":{"_index":"products","_id":"P142"}}
+{"id":"P142","name":"Nike Everyday Socks","description":"Soft everyday socks with a supportive fit","brand":"Nike","category":"Accessories","price":599,"rating":4.4,"inStock":true}
+{"index":{"_index":"products","_id":"P143"}}
+{"id":"P143","name":"Adidas Cushioned Crew Socks","description":"Cushioned socks designed for daily comfort","brand":"Adidas","category":"Accessories","price":699,"rating":4.5,"inStock":true}
+{"index":{"_index":"products","_id":"P144"}}
+{"id":"P144","name":"Puma Running Cap","description":"Lightweight cap for sunny outdoor runs","brand":"Puma","category":"Accessories","price":799,"rating":4.2,"inStock":true}
+{"index":{"_index":"products","_id":"P145"}}
+{"id":"P145","name":"Nike Heritage Backpack","description":"Everyday backpack with a spacious main compartment","brand":"Nike","category":"Accessories","price":2199,"rating":4.5,"inStock":true}
+{"index":{"_index":"products","_id":"P146"}}
+{"id":"P146","name":"Adidas Classic Backpack","description":"Durable backpack for school, work, and training","brand":"Adidas","category":"Accessories","price":1999,"rating":4.4,"inStock":true}
+{"index":{"_index":"products","_id":"P147"}}
+{"id":"P147","name":"Puma Phase Gym Sack","description":"Compact drawstring bag for lightweight essentials","brand":"Puma","category":"Accessories","price":499,"rating":4.0,"inStock":true}
+{"index":{"_index":"products","_id":"P148"}}
+{"id":"P148","name":"Reebok Training Duffel","description":"Roomy gym bag with multiple storage pockets","brand":"Reebok","category":"Accessories","price":1799,"rating":4.3,"inStock":true}
+{"index":{"_index":"products","_id":"P149"}}
+{"id":"P149","name":"Nike Brasilia Duffel","description":"Sports duffel bag for gym and travel gear","brand":"Nike","category":"Accessories","price":2499,"rating":4.6,"inStock":true}
+{"index":{"_index":"products","_id":"P150"}}
+{"id":"P150","name":"Adidas Water Bottle 750ml","description":"Reusable sports bottle for workouts and travel","brand":"Adidas","category":"Accessories","price":499,"rating":4.2,"inStock":true}
+{"index":{"_index":"products","_id":"P151"}}
+{"id":"P151","name":"Puma Stainless Steel Bottle","description":"Reusable insulated bottle for daily hydration","brand":"Puma","category":"Accessories","price":999,"rating":4.3,"inStock":false}
+{"index":{"_index":"products","_id":"P152"}}
+{"id":"P152","name":"Nike Training Gloves","description":"Grip-enhancing gloves for weight training","brand":"Nike","category":"Accessories","price":1299,"rating":4.1,"inStock":true}
+{"index":{"_index":"products","_id":"P153"}}
+{"id":"P153","name":"Adidas Wristbands","description":"Absorbent wristbands for sports and exercise","brand":"Adidas","category":"Accessories","price":399,"rating":4.0,"inStock":true}
+{"index":{"_index":"products","_id":"P154"}}
+{"id":"P154","name":"Fitbit Inspire 3","description":"Fitness tracker for activity, sleep, and wellness metrics","brand":"Fitbit","category":"Wearables","price":7999,"rating":4.5,"inStock":true}
+{"index":{"_index":"products","_id":"P155"}}
+{"id":"P155","name":"Garmin Forerunner 55","description":"GPS running watch with training and pace features","brand":"Garmin","category":"Wearables","price":16999,"rating":4.7,"inStock":true}
+{"index":{"_index":"products","_id":"P156"}}
+{"id":"P156","name":"Apple Watch SE","description":"Smartwatch with fitness tracking and notification features","brand":"Apple","category":"Wearables","price":24999,"rating":4.6,"inStock":true}
+{"index":{"_index":"products","_id":"P157"}}
+{"id":"P157","name":"Samsung Galaxy Fit3","description":"Fitness band with activity tracking and a bright display","brand":"Samsung","category":"Wearables","price":4999,"rating":4.3,"inStock":true}
+{"index":{"_index":"products","_id":"P158"}}
+{"id":"P158","name":"Noise ColorFit Pulse","description":"Smartwatch with health tracking and multiple sport modes","brand":"Noise","category":"Wearables","price":1799,"rating":4.0,"inStock":true}
+{"index":{"_index":"products","_id":"P159"}}
+{"id":"P159","name":"boAt Wave Sigma","description":"Smartwatch with a large display and activity tracking","brand":"boAt","category":"Wearables","price":1499,"rating":3.9,"inStock":true}
+{"index":{"_index":"products","_id":"P160"}}
+{"id":"P160","name":"JBL Tune 510BT","description":"Wireless on-ear headphones with punchy sound","brand":"JBL","category":"Electronics","price":2999,"rating":4.4,"inStock":true}
+{"index":{"_index":"products","_id":"P161"}}
+{"id":"P161","name":"Sony WH-CH520","description":"Wireless headphones with long battery life","brand":"Sony","category":"Electronics","price":4499,"rating":4.5,"inStock":true}
+{"index":{"_index":"products","_id":"P162"}}
+{"id":"P162","name":"boAt Rockerz 450","description":"Wireless headphones for music and everyday listening","brand":"boAt","category":"Electronics","price":1499,"rating":4.1,"inStock":true}
+{"index":{"_index":"products","_id":"P163"}}
+{"id":"P163","name":"JBL Endurance Run 2","description":"Sport earphones designed for active use","brand":"JBL","category":"Electronics","price":1299,"rating":4.2,"inStock":true}
+{"index":{"_index":"products","_id":"P164"}}
+{"id":"P164","name":"Anker Soundcore Life P2","description":"Wireless earbuds with a compact charging case","brand":"Anker","category":"Electronics","price":2499,"rating":4.3,"inStock":false}
+{"index":{"_index":"products","_id":"P165"}}
+{"id":"P165","name":"Apple AirPods 4","description":"Wireless earbuds with clear audio and convenient pairing","brand":"Apple","category":"Electronics","price":12999,"rating":4.6,"inStock":true}
+{"index":{"_index":"products","_id":"P166"}}
+{"id":"P166","name":"Samsung Galaxy Buds FE","description":"Wireless earbuds with active noise cancellation","brand":"Samsung","category":"Electronics","price":6999,"rating":4.4,"inStock":true}
+{"index":{"_index":"products","_id":"P167"}}
+{"id":"P167","name":"Logitech M185 Mouse","description":"Compact wireless mouse for everyday computer use","brand":"Logitech","category":"Electronics","price":799,"rating":4.3,"inStock":true}
+{"index":{"_index":"products","_id":"P168"}}
+{"id":"P168","name":"Logitech K380 Keyboard","description":"Compact Bluetooth keyboard for multiple devices","brand":"Logitech","category":"Electronics","price":2999,"rating":4.5,"inStock":true}
+{"index":{"_index":"products","_id":"P169"}}
+{"id":"P169","name":"Mi Power Bank 10000mAh","description":"Portable battery pack for charging devices on the go","brand":"Xiaomi","category":"Electronics","price":1199,"rating":4.2,"inStock":true}
+{"index":{"_index":"products","_id":"P170"}}
+{"id":"P170","name":"Anker Nano Charger","description":"Compact USB-C wall charger for compatible devices","brand":"Anker","category":"Electronics","price":1699,"rating":4.4,"inStock":true}
+{"index":{"_index":"products","_id":"P171"}}
+{"id":"P171","name":"Amazon Basics USB-C Cable","description":"Durable charging and data cable for USB-C devices","brand":"Amazon Basics","category":"Electronics","price":299,"rating":4.0,"inStock":true}
+{"index":{"_index":"products","_id":"P172"}}
+{"id":"P172","name":"Portronics USB Hub","description":"Multiport USB hub for connecting computer accessories","brand":"Portronics","category":"Electronics","price":699,"rating":4.1,"inStock":true}
+{"index":{"_index":"products","_id":"P173"}}
+{"id":"P173","name":"Decathlon Yoga Mat","description":"Non-slip exercise mat for yoga and stretching","brand":"Decathlon","category":"Fitness Equipment","price":999,"rating":4.4,"inStock":true}
+{"index":{"_index":"products","_id":"P174"}}
+{"id":"P174","name":"Boldfit Resistance Bands","description":"Resistance bands for strength training and mobility","brand":"Boldfit","category":"Fitness Equipment","price":499,"rating":4.2,"inStock":true}
+{"index":{"_index":"products","_id":"P175"}}
+{"id":"P175","name":"Strauss Foam Roller","description":"Foam roller for post-workout muscle massage","brand":"Strauss","category":"Fitness Equipment","price":899,"rating":4.3,"inStock":true}
+{"index":{"_index":"products","_id":"P176"}}
+{"id":"P176","name":"Amazon Basics Dumbbells 5kg","description":"Pair of dumbbells for home strength workouts","brand":"Amazon Basics","category":"Fitness Equipment","price":1499,"rating":4.4,"inStock":true}
+{"index":{"_index":"products","_id":"P177"}}
+{"id":"P177","name":"Cockatoo Adjustable Skipping Rope","description":"Adjustable jump rope for cardio and conditioning","brand":"Cockatoo","category":"Fitness Equipment","price":299,"rating":4.0,"inStock":true}
+{"index":{"_index":"products","_id":"P178"}}
+{"id":"P178","name":"Cosco Basketball","description":"Durable basketball for indoor and outdoor play","brand":"Cosco","category":"Sports Equipment","price":899,"rating":4.2,"inStock":true}
+{"index":{"_index":"products","_id":"P179"}}
+{"id":"P179","name":"Nivia Football","description":"Training football suitable for recreational matches","brand":"Nivia","category":"Sports Equipment","price":799,"rating":4.1,"inStock":true}
+{"index":{"_index":"products","_id":"P180"}}
+{"id":"P180","name":"Yonex Mavis 350 Shuttlecocks","description":"Durable nylon shuttlecocks for badminton practice","brand":"Yonex","category":"Sports Equipment","price":899,"rating":4.5,"inStock":true}
+{"index":{"_index":"products","_id":"P181"}}
+{"id":"P181","name":"Li-Ning Badminton Racket","description":"Lightweight racket for recreational badminton","brand":"Li-Ning","category":"Sports Equipment","price":1599,"rating":4.3,"inStock":true}
+{"index":{"_index":"products","_id":"P182"}}
+{"id":"P182","name":"Cosco Tennis Ball Pack","description":"Pack of tennis balls for practice and casual play","brand":"Cosco","category":"Sports Equipment","price":399,"rating":4.0,"inStock":false}
+{"index":{"_index":"products","_id":"P183"}}
+{"id":"P183","name":"Wilson Tennis Racket","description":"All-round tennis racket for beginner players","brand":"Wilson","category":"Sports Equipment","price":3999,"rating":4.4,"inStock":true}
+{"index":{"_index":"products","_id":"P184"}}
+{"id":"P184","name":"Nivia Yoga Block","description":"Supportive foam block for yoga poses and balance","brand":"Nivia","category":"Fitness Equipment","price":299,"rating":4.1,"inStock":true}
+{"index":{"_index":"products","_id":"P185"}}
+{"id":"P185","name":"Boldfit Gym Shaker","description":"Leak-resistant shaker bottle for workout drinks","brand":"Boldfit","category":"Fitness Equipment","price":349,"rating":4.2,"inStock":true}
+{"index":{"_index":"products","_id":"P186"}}
+{"id":"P186","name":"Strauss Ab Roller","description":"Compact wheel for core-strengthening exercises","brand":"Strauss","category":"Fitness Equipment","price":599,"rating":4.0,"inStock":true}
+{"index":{"_index":"products","_id":"P187"}}
+{"id":"P187","name":"Decathlon Training Kettlebell 8kg","description":"Kettlebell for strength and conditioning routines","brand":"Decathlon","category":"Fitness Equipment","price":1799,"rating":4.3,"inStock":true}
+{"index":{"_index":"products","_id":"P188"}}
+{"id":"P188","name":"Wildcraft Hiking Backpack 30L","description":"Outdoor backpack with storage for day hikes","brand":"Wildcraft","category":"Outdoor Gear","price":2999,"rating":4.5,"inStock":true}
+{"index":{"_index":"products","_id":"P189"}}
+{"id":"P189","name":"Quechua Rain Jacket","description":"Packable rain jacket for hiking and travel","brand":"Quechua","category":"Outdoor Gear","price":1999,"rating":4.4,"inStock":true}
+{"index":{"_index":"products","_id":"P190"}}
+{"id":"P190","name":"Wildcraft Trekking Shoes","description":"Durable outdoor shoes with a grippy sole","brand":"Wildcraft","category":"Outdoor Gear","price":3499,"rating":4.3,"inStock":true}
+{"index":{"_index":"products","_id":"P191"}}
+{"id":"P191","name":"Quechua Camping Lantern","description":"Portable lantern for camping and outdoor evenings","brand":"Quechua","category":"Outdoor Gear","price":799,"rating":4.2,"inStock":true}
+{"index":{"_index":"products","_id":"P192"}}
+{"id":"P192","name":"Milton Thermosteel Bottle","description":"Insulated bottle designed to keep drinks hot or cold","brand":"Milton","category":"Outdoor Gear","price":999,"rating":4.4,"inStock":true}
+{"index":{"_index":"products","_id":"P193"}}
+{"id":"P193","name":"Cello Travel Mug","description":"Reusable travel mug for hot and cold beverages","brand":"Cello","category":"Outdoor Gear","price":599,"rating":4.1,"inStock":true}
+{"index":{"_index":"products","_id":"P194"}}
+{"id":"P194","name":"Safari Cabin Trolley","description":"Compact rolling suitcase for short trips","brand":"Safari","category":"Travel","price":3499,"rating":4.3,"inStock":true}
+{"index":{"_index":"products","_id":"P195"}}
+{"id":"P195","name":"American Tourister Backpack","description":"Everyday backpack with padded laptop storage","brand":"American Tourister","category":"Travel","price":2499,"rating":4.5,"inStock":true}
+{"index":{"_index":"products","_id":"P196"}}
+{"id":"P196","name":"Skybags Duffel Bag","description":"Lightweight duffel for weekend trips and gym use","brand":"Skybags","category":"Travel","price":1499,"rating":4.2,"inStock":true}
+{"index":{"_index":"products","_id":"P197"}}
+{"id":"P197","name":"F Gear Laptop Sleeve","description":"Protective sleeve for carrying a laptop","brand":"F Gear","category":"Accessories","price":799,"rating":4.1,"inStock":true}
+{"index":{"_index":"products","_id":"P198"}}
+{"id":"P198","name":"DailyObjects Phone Stand","description":"Compact stand for hands-free phone viewing","brand":"DailyObjects","category":"Accessories","price":599,"rating":4.2,"inStock":true}
+{"index":{"_index":"products","_id":"P199"}}
+{"id":"P199","name":"Portronics Car Charger","description":"Dual-port car charger for compatible mobile devices","brand":"Portronics","category":"Electronics","price":499,"rating":4.0,"inStock":true}
+{"index":{"_index":"products","_id":"P200"}}
+{"id":"P200","name":"Philips LED Desk Lamp","description":"Adjustable desk lamp for reading and workspaces","brand":"Philips","category":"Home","price":1299,"rating":4.4,"inStock":true}
+{"index":{"_index":"products","_id":"P201"}}
+{"id":"P201","name":"Prestige Electric Kettle","description":"Electric kettle for quickly boiling water","brand":"Prestige","category":"Home","price":1499,"rating":4.3,"inStock":true}
+{"index":{"_index":"products","_id":"P202"}}
+{"id":"P202","name":"Pigeon Sandwich Maker","description":"Compact appliance for preparing toasted sandwiches","brand":"Pigeon","category":"Home","price":1199,"rating":4.1,"inStock":false}
+{"index":{"_index":"products","_id":"P203"}}
+{"id":"P203","name":"Havells Personal Fan","description":"Compact fan for desk and personal cooling","brand":"Havells","category":"Home","price":999,"rating":4.2,"inStock":true}
+{"index":{"_index":"products","_id":"P204"}}
+{"id":"P204","name":"Dyson V8 Vacuum Cleaner","description":"Cordless vacuum cleaner for everyday home cleaning","brand":"Dyson","category":"Home","price":29999,"rating":4.6,"inStock":true}
+{"index":{"_index":"products","_id":"P205"}}
+{"id":"P205","name":"IKEA Desk Organizer","description":"Simple organizer for stationery and small desk items","brand":"IKEA","category":"Home","price":399,"rating":4.0,"inStock":true}

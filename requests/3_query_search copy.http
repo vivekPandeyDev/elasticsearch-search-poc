@@ -1,0 +1,14 @@
+POST http://localhost:9200/products/_search
+Content-Type: application/json
+
+{
+  "query": {
+    "multi_match": {
+      "query": "Nike running shoes",
+      "fields": [
+        "name^3",
+        "description"
+      ]
+    }
+  }
+}

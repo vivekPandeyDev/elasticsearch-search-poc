@@ -1,0 +1,4 @@
+
+
+GET http://localhost:8080/api/search?q=shoes&page=0&size=6&sort=price&direction=desc
+Accept: application/json

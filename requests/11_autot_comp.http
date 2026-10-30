@@ -1,0 +1,18 @@
+POST http://localhost:9200/products_v2/_search
+Content-Type: application/json
+
+{
+  "size": 10,
+  "_source": ["id", "name", "brand", "category", "price"],
+  "query": {
+    "multi_match": {
+      "query": "nike c",
+      "type": "bool_prefix",
+      "fields": [
+        "name",
+        "name._2gram",
+        "name._3gram"
+      ]
+    }
+  }
+}

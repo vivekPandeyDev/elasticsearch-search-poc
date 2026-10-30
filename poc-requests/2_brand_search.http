@@ -1,0 +1,3 @@
+## Search by brand
+GET http://localhost:8080/api/search?q=shoes&brand=Nike
+Accept: application/json

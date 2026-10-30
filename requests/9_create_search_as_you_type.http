@@ -1,0 +1,33 @@
+PUT http://localhost:9200/products_v2
+Content-Type: application/json
+
+{
+  "mappings": {
+    "properties": {
+      "id": {
+        "type": "keyword"
+      },
+      "name": {
+        "type": "search_as_you_type"
+      },
+      "description": {
+        "type": "text"
+      },
+      "brand": {
+        "type": "keyword"
+      },
+      "category": {
+        "type": "keyword"
+      },
+      "price": {
+        "type": "double"
+      },
+      "rating": {
+        "type": "float"
+      },
+      "inStock": {
+        "type": "boolean"
+      }
+    }
+  }
+}

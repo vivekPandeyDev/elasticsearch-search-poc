@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: elastic-search-demo
+  elasticsearch:
+    uris: ${ELASTICSEARCH_URL:http://localhost:9200}
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "health,info,metrics" # Or "*" to include all
+        exclude: "env"
+  info:
+    env:
+      enabled: true
+    java:
+      enabled: true
+
+info:
+  app:
+    name: "Elastic Search Demo"
+    description: "A Spring Boot application demonstrating Elasticsearch integration."
+    version: "1.0.0"
+    java-version: "${java.version}"

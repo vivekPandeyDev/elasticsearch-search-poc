@@ -1,0 +1,4 @@
+## In-stock products search
+
+GET http://localhost:8080/api/search?q=running%20shoes&inStock=true
+Accept: application/json

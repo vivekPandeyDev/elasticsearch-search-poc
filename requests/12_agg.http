@@ -1,0 +1,13 @@
+POST http://localhost:9200/products/_search
+Content-Type: application/json
+
+{
+  "size": 0,
+  "aggs": {
+    "brands": {
+      "terms": {
+        "field": "brand"
+      }
+    }
+  }
+}

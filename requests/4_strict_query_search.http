@@ -1,0 +1,26 @@
+POST http://localhost:9200/products/_search
+Content-Type: application/json
+
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "multi_match": {
+            "query": "Nike running shoes",
+            "fields": ["name^3", "description"],
+            "type": "best_fields"
+          }
+        }
+      ],
+      "filter": [
+        {
+          "term": {
+            "brand": "Nike"
+          }
+        }
+      ]
+    }
+  },
+  "size": 100
+}

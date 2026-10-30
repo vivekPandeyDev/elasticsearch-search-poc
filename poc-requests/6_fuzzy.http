@@ -1,0 +1,4 @@
+## Fuzz search
+
+GET http://localhost:8080/api/search?q=niku%20running%20shose&fuzzy=true
+Accept: application/json
