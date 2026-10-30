@@ -9,6 +9,11 @@ management:
       exposure:
         include: "health,info,metrics" # Or "*" to include all
         exclude: "env"
+  endpoint:
+    health:
+      # Shows detailed component breakdowns (like elasticsearch status)
+      show-details: "always"
+
   info:
     env:
       enabled: true
